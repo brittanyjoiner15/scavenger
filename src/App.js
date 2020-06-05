@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Header } from "./components/Header";
-import { Clue } from "./components/Clue";
+import Clue from "./components/Clue";
 
 function App() {
   return (
