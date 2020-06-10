@@ -1,0 +1,28 @@
+{
+  "Clues": [
+    {
+      "id": 1,
+      "name": "name of clue",
+      "riddle": "paragraph of what needs to be solved",
+      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
+      "rightAnswer": "cleopatra",
+      "hint": "string of text to show in pop up if she needs a hint"
+    },
+    {
+      "id": 2,
+      "name": "the next one",
+      "riddle": "second paragraph of what needs to be solved",
+      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
+      "rightAnswer": "north",
+      "hint": "string of text to show in pop up if she needs a hint"
+    },
+    {
+      "id": 3,
+      "name": "the third one",
+      "riddle": "second paragraph of what needs to be solved",
+      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
+      "rightAnswer": "south",
+      "hint": "string of text to show in pop up if she needs a hint"
+    }
+  ]
+}

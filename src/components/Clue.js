@@ -16,13 +16,30 @@ import {
   EuiTitle,
 } from "@elastic/eui";
 
+import jsonData from "../clues.json";
+
 import "@elastic/eui/dist/eui_theme_light.css";
 
-const Clue = () => {
-  const [value, setValue] = useState("");
+const Clue = (props) => {
+  const [id, setId] = useState(0);
 
-  const onChange = (e) => {
-    setValue(e.target.value);
+  const clue = jsonData.Clues[id];
+
+  const rightAnswer = clue.rightAnswer;
+
+  const checkAnswer = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    console.log(e.target.elements.submittedAnswer.value);
+    console.log(rightAnswer);
+    const submittedAnswer = e.target.elements.submittedAnswer.value;
+    if (submittedAnswer === rightAnswer) {
+      setId(id + 1);
+      form.reset();
+    } else {
+      window.alert("try again");
+      //* set to eui banner */
+    }
   };
 
   return (
@@ -37,34 +54,37 @@ const Clue = () => {
             </EuiPageContentHeaderSection>
           </EuiPageContentHeader>
           <EuiPageContentBody>
-            <p>here a image</p>
-            <EuiSpacer />
-            <p>here a riddle</p>
-            <EuiSpacer />
-            <form>
-              <EuiFieldText
-                placeholder="Placeholder text"
-                value={value}
-                onChange={(e) => onChange(e)}
-                aria-label="Use aria labels when no actual label is in use"
-              />
-              <EuiSpacer />
-              <EuiButton fill onClick={() => window.alert("Button clicked")}>
-                Submit
-              </EuiButton>
-            </form>
-            <EuiSpacer />
-            <EuiTitle size="xsxs">
-              <h3>
-                <EuiBetaBadge
-                  onClick={() => window.alert("Badge clicked")}
-                  className="hint"
-                  label="Lab"
-                  iconType="beaker"
-                />
-                Need a hint?
-              </h3>
-            </EuiTitle>
+            <div className="row p-4 drinkBox">
+              <div className="col-md-6  drinkImg">
+                <img src={clue.image} width="10%" />
+                <EuiSpacer />
+                <p>{clue.riddle}</p>
+                <EuiSpacer />
+                <form onSubmit={checkAnswer}>
+                  <EuiFieldText
+                    placeholder="Type your answer here"
+                    aria-label="Type your answer here"
+                    name="submittedAnswer"
+                  />
+                  <EuiSpacer />
+                  <EuiButton fill type="submit">
+                    Submit
+                  </EuiButton>
+                </form>
+                <EuiSpacer />
+                <EuiTitle size="xxs">
+                  <h3>
+                    <EuiBetaBadge
+                      onClick={() => window.alert(clue.hint)}
+                      className="hint"
+                      label="Lab"
+                      iconType="beaker"
+                    />
+                    Need a hint?
+                  </h3>
+                </EuiTitle>
+              </div>
+            </div>
           </EuiPageContentBody>
         </EuiPageContent>
       </EuiPageBody>
@@ -73,3 +93,5 @@ const Clue = () => {
 };
 
 export default Clue;
+
+//** make input received go to lowercase and trim spaces so it would match */
