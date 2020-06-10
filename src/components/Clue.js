@@ -55,7 +55,7 @@ const Clue = (props) => {
           </EuiPageContentHeader>
           <EuiPageContentBody>
             <div className="clueBox">
-              <img src={clue.image} width="30%" alt={clue.name} />
+              <img src={clue.image} width="70%" alt={clue.name} />
               <EuiSpacer />
               <p>{clue.riddle}</p>
               <EuiSpacer />
@@ -71,10 +71,9 @@ const Clue = (props) => {
                 </EuiButton>
               </form>
               <EuiSpacer />
-              <EuiTitle size="xxs">
+              <EuiTitle onClick={() => window.alert(clue.hint)} size="xxs">
                 <h3>
                   <EuiBetaBadge
-                    onClick={() => window.alert(clue.hint)}
                     className="hint"
                     label="Lab"
                     iconType="beaker"
