@@ -1,6 +1,14 @@
 {
   "Clues": [
     {
+      "id": 0,
+      "name": "Happy Birthday, Mom!",
+      "riddle": "To celebrate in the best way possible, we created this birthday scavenger hunt for you. Pack your bags, and once you're ready, head to the Tedfords. Type 'go' below when you're there!",
+      "image": "https://media.giphy.com/media/VGG8UY1nEl66Y/giphy.gif",
+      "rightAnswer": "go",
+      "hint": "Literally... just type 'go' with no quotes around it."
+    },
+    {
       "id": 1,
       "name": "name of clue",
       "riddle": "paragraph of what needs to be solved",
@@ -19,7 +27,7 @@
     {
       "id": 3,
       "name": "the third one",
-      "riddle": "second paragraph of what needs to be solved",
+      "riddle": "third paragraph of what needs to be solved",
       "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
       "rightAnswer": "south",
       "hint": "string of text to show in pop up if she needs a hint"

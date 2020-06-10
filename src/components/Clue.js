@@ -49,41 +49,39 @@ const Clue = (props) => {
           <EuiPageContentHeader>
             <EuiPageContentHeaderSection>
               <EuiTitle>
-                <h2>Here is a clue</h2>
+                <h2>{clue.name}</h2>
               </EuiTitle>
             </EuiPageContentHeaderSection>
           </EuiPageContentHeader>
           <EuiPageContentBody>
-            <div className="row p-4 drinkBox">
-              <div className="col-md-6  drinkImg">
-                <img src={clue.image} width="10%" />
+            <div className="clueBox">
+              <img src={clue.image} width="30%" alt={clue.name} />
+              <EuiSpacer />
+              <p>{clue.riddle}</p>
+              <EuiSpacer />
+              <form onSubmit={checkAnswer}>
+                <EuiFieldText
+                  placeholder="Type your answer here"
+                  aria-label="Type your answer here"
+                  name="submittedAnswer"
+                />
                 <EuiSpacer />
-                <p>{clue.riddle}</p>
-                <EuiSpacer />
-                <form onSubmit={checkAnswer}>
-                  <EuiFieldText
-                    placeholder="Type your answer here"
-                    aria-label="Type your answer here"
-                    name="submittedAnswer"
+                <EuiButton fill type="submit">
+                  Submit
+                </EuiButton>
+              </form>
+              <EuiSpacer />
+              <EuiTitle size="xxs">
+                <h3>
+                  <EuiBetaBadge
+                    onClick={() => window.alert(clue.hint)}
+                    className="hint"
+                    label="Lab"
+                    iconType="beaker"
                   />
-                  <EuiSpacer />
-                  <EuiButton fill type="submit">
-                    Submit
-                  </EuiButton>
-                </form>
-                <EuiSpacer />
-                <EuiTitle size="xxs">
-                  <h3>
-                    <EuiBetaBadge
-                      onClick={() => window.alert(clue.hint)}
-                      className="hint"
-                      label="Lab"
-                      iconType="beaker"
-                    />
-                    Need a hint?
-                  </h3>
-                </EuiTitle>
-              </div>
+                  Need a hint?
+                </h3>
+              </EuiTitle>
             </div>
           </EuiPageContentBody>
         </EuiPageContent>
