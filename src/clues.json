@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Happy Birthday, Mom!",
-      "riddle": "To celebrate in the best way possible, we created this birthday scavenger hunt for you. Pack your bags, and once you're ready, head to the Tedfords. Type 'go' below when you're there!",
+      "riddle": "To celebrate in the best way possible, we created this birthday scavenger hunt for you. Pack your bags, and once you're ready, type 'go' below when you're there!",
       "image": "https://media.giphy.com/media/VGG8UY1nEl66Y/giphy.gif",
       "rightAnswer": "go",
       "hint": "Literally... just type 'go' with no quotes around it."
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "name": "Bring the boat!",
+      "name": "Bring the kayak!",
       "riddle": "So you figured out what you need. Now figure out where you will use it! Drive along Northshore until you reach a street sharing the same name as a famous preacher. The rest of your path should then become clear. When you arrive, type the name of the road to get your next clue.",
       "image": "https://media.giphy.com/media/iVqXV4vE4DDYk/giphy.gif",
       "rightAnswer": "keller bend",
@@ -49,15 +49,15 @@
       "hint": "It contains a direction"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Downtown Part 4",
-      "riddle": "According to another plaque, destiny decrees what?",
-      "image": "https://media.giphy.com/media/Emg9qPKR5hquI/giphy.gif",
+      "riddle": "According to another plaque, destiny decrees what? (6 words, starts with 'that', no puncuation needed",
+      "image": "https://media.giphy.com/media/YLHwkqayc1j7a/giphy.gif",
       "rightAnswer": "that some make the supreme sacrifice",
-      "hint": "Look for the McMillans. The answer is 6 words, starting with 'that' and does not have punctuation at the end. "
+      "hint": "Look for the McMillans."
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Downtown Part 5",
       "riddle": "Buried here, who was the second wife of the state’s first governor?",
       "image": "https://media.giphy.com/media/JlpjgSWmzR45OUMyNQ/giphy.gif",
@@ -65,7 +65,7 @@
       "hint": "A library branch is named this"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Downtown Part 6",
       "riddle": "Now stroll through Charles Krutch Park and seek out the metal bird. Upon what is it perched? (Omit any articles in your answer.)",
       "image": "https://media.giphy.com/media/VBVY9IJKDxwHK/giphy.gif",
@@ -73,7 +73,7 @@
       "hint": "This is also traditionally the symbol of Black Power."
     },
     {
-      "id": 7,
+      "id": 9,
       "name": "Downtown Part 7",
       "riddle": "Finish your journey through downtown Knoxville in Market Square and tell us: which Tennessean suffragette was also a character in Harry Potter?",
       "image": "https://media.giphy.com/media/720g7C1jz13wI/giphy.gif",
@@ -81,9 +81,17 @@
       "hint": "She’s the one from Nashville."
     },
     {
-      "id": 8,
+      "id": 10,
+      "name": "Brittany Clue",
+      "riddle": "What does this block of code return?",
+      "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/e9960cd2f52be09ea35b22b4adb58f00/image.png",
+      "rightAnswer": "7100",
+      "hint": "=(12*40*10)+((30-5)*92)"
+    },
+    {
+      "id": 11,
       "name": "Congrats!",
-      "riddle": "You did it! No go enjoy some birthday drinks.",
+      "riddle": "You did it! No go enjoy some birthday drinks at 7100 :)",
       "image": "https://media.giphy.com/media/g9582DNuQppxC/giphy.gif",
       "rightAnswer": "anne",
       "hint": "She’s the one from Nashville."

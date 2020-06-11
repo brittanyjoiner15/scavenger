@@ -58,7 +58,7 @@ const Clue = (props) => {
           </EuiPageContentHeader>
           <EuiPageContentBody>
             <div className="clueBox">
-              <img src={clue.image} width="70%" alt={clue.name} />
+              <img src={clue.image} width="100%" alt={clue.name} />
               <EuiSpacer />
               <p>{clue.riddle}</p>
               <EuiSpacer />
