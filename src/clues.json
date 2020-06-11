@@ -45,7 +45,7 @@
       "name": "Downtown Part 3",
       "riddle": "Keep exploring the area and find out the name of the territory of which Knoxville was once capital. (Omit any articles, answer is two words.)",
       "image": "https://media.giphy.com/media/BwyFZFzCFgaSQ/giphy.gif",
-      "rightAnswer": "Southwest Territory",
+      "rightAnswer": "southwest territory",
       "hint": "It contains a direction"
     },
     {
@@ -53,15 +53,15 @@
       "name": "Downtown Part 4",
       "riddle": "According to another plaque, destiny decrees what?",
       "image": "https://media.giphy.com/media/Emg9qPKR5hquI/giphy.gif",
-      "rightAnswer": "That some make the supreme sacrifice.",
-      "hint": "Look for the McMillans. The answer is 6 words, starting with 'that' "
+      "rightAnswer": "that some make the supreme sacrifice",
+      "hint": "Look for the McMillans. The answer is 6 words, starting with 'that' and does not have punctuation at the end. "
     },
     {
       "id": 6,
       "name": "Downtown Part 5",
       "riddle": "Buried here, who was the second wife of the state’s first governor?",
       "image": "https://media.giphy.com/media/JlpjgSWmzR45OUMyNQ/giphy.gif",
-      "rightAnswer": "Bonny Kate",
+      "rightAnswer": "bonny kate",
       "hint": "A library branch is named this"
     },
     {
@@ -77,7 +77,15 @@
       "name": "Downtown Part 7",
       "riddle": "Finish your journey through downtown Knoxville in Market Square and tell us: which Tennessean suffragette was also a character in Harry Potter?",
       "image": "https://media.giphy.com/media/720g7C1jz13wI/giphy.gif",
-      "rightAnswer": "Anne",
+      "rightAnswer": "anne",
+      "hint": "She’s the one from Nashville."
+    },
+    {
+      "id": 8,
+      "name": "Congrats!",
+      "riddle": "You did it! No go enjoy some birthday drinks.",
+      "image": "https://media.giphy.com/media/g9582DNuQppxC/giphy.gif",
+      "rightAnswer": "anne",
       "hint": "She’s the one from Nashville."
     }
   ]

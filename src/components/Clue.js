@@ -30,14 +30,17 @@ const Clue = (props) => {
   const checkAnswer = (e) => {
     e.preventDefault();
     const form = e.target;
-    console.log(e.target.elements.submittedAnswer.value);
-    console.log(rightAnswer);
-    const submittedAnswer = e.target.elements.submittedAnswer.value;
+    console.log(id);
+    const submittedAnswer = e.target.elements.submittedAnswer.value.toLowerCase();
     if (submittedAnswer === rightAnswer) {
       setId(id + 1);
       form.reset();
+      if (id === jsonData.Clues.length - 2) {
+        document.getElementById("guess").classList.add("hide");
+        document.getElementById("hintBox").classList.add("hide");
+      }
     } else {
-      window.alert("try again");
+      window.alert("Try again");
       //* set to eui banner */
     }
   };
@@ -59,7 +62,7 @@ const Clue = (props) => {
               <EuiSpacer />
               <p>{clue.riddle}</p>
               <EuiSpacer />
-              <form onSubmit={checkAnswer}>
+              <form id="guess" onSubmit={checkAnswer}>
                 <EuiFieldText
                   placeholder="Type your answer here"
                   aria-label="Type your answer here"
@@ -71,7 +74,11 @@ const Clue = (props) => {
                 </EuiButton>
               </form>
               <EuiSpacer />
-              <EuiTitle onClick={() => window.alert(clue.hint)} size="xxs">
+              <EuiTitle
+                id="hintBox"
+                onClick={() => window.alert(clue.hint)}
+                size="xxs"
+              >
                 <h3>
                   <EuiBetaBadge
                     className="hint"
