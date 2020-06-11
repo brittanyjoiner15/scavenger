@@ -88,6 +88,21 @@ const Clue = (props) => {
                   Need a hint?
                 </h3>
               </EuiTitle>
+              <EuiSpacer />
+              <EuiTitle
+                id="answer"
+                onClick={() => window.alert(clue.rightAnswer)}
+                size="xxs"
+              >
+                <h3>
+                  <EuiBetaBadge
+                    className="hint"
+                    label="Lab"
+                    iconType="beaker"
+                  />
+                  I am stumped. Give me the answer.
+                </h3>
+              </EuiTitle>
             </div>
           </EuiPageContentBody>
         </EuiPageContent>
