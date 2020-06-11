@@ -10,27 +10,75 @@
     },
     {
       "id": 1,
-      "name": "name of clue",
-      "riddle": "paragraph of what needs to be solved",
-      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
-      "rightAnswer": "cleopatra",
-      "hint": "string of text to show in pop up if she needs a hint"
+      "name": "You need something...",
+      "riddle": "Kon-Tiki, Heart of Darkness, Moby Dick: What do all of these stories have in common? The answer to this question will prove to be quite useful in order to obtain your next clue.",
+      "image": "https://media.giphy.com/media/1TgECF0mNVirC/giphy.gif",
+      "rightAnswer": "boat",
+      "hint": "It's a mode of transportation!"
     },
     {
       "id": 2,
-      "name": "the next one",
-      "riddle": "second paragraph of what needs to be solved",
-      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
-      "rightAnswer": "north",
-      "hint": "string of text to show in pop up if she needs a hint"
+      "name": "Bring the boat!",
+      "riddle": "So you figured out what you need. Now figure out where you will use it! Drive along Northshore until you reach a street sharing the same name as a famous preacher. The rest of your path should then become clear. When you arrive, type the name of the road to get your next clue.",
+      "image": "https://media.giphy.com/media/iVqXV4vE4DDYk/giphy.gif",
+      "rightAnswer": "keller bend",
+      "hint": "Redeemer"
     },
     {
       "id": 3,
-      "name": "the third one",
-      "riddle": "third paragraph of what needs to be solved",
-      "image": "https://trello-attachments.s3.amazonaws.com/5c3174bfd2f31c356736c742/5eb5e96f599ff27daccdb61f/9d4315902c966c1be941e744abc295c8/oldFashioned.jpg",
-      "rightAnswer": "south",
-      "hint": "string of text to show in pop up if she needs a hint"
+      "name": "Downtown Part 1",
+      "riddle": "Go to Assembly Park and find the memorial built by Knoxville artist Randy Vaden. What date does it commemorate? (Answer should be DD/MM/YYYY.)",
+      "image": "https://media.giphy.com/media/1lk1IcVgqPLkA/giphy.gif",
+      "rightAnswer": "11/09/2001",
+      "hint": "dad never flies on this day"
+    },
+    {
+      "id": 4,
+      "name": "Downtown Part 2",
+      "riddle": "Walk up Main Street and figure out what building used to be on the site of the Old Knoxville Courthouse? (Omit any articles, answer should be three words).",
+      "image": "https://media.giphy.com/media/Emg9qPKR5hquI/giphy.gif",
+      "rightAnswer": "first block house",
+      "hint": "300 Main St - Knoxville, TN 37902"
+    },
+    {
+      "id": 5,
+      "name": "Downtown Part 3",
+      "riddle": "Keep exploring the area and find out the name of the territory of which Knoxville was once capital. (Omit any articles, answer is two words.)",
+      "image": "https://media.giphy.com/media/BwyFZFzCFgaSQ/giphy.gif",
+      "rightAnswer": "Southwest Territory",
+      "hint": "It contains a direction"
+    },
+    {
+      "id": 5,
+      "name": "Downtown Part 4",
+      "riddle": "According to another plaque, destiny decrees what?",
+      "image": "https://media.giphy.com/media/Emg9qPKR5hquI/giphy.gif",
+      "rightAnswer": "That some make the supreme sacrifice.",
+      "hint": "Look for the McMillans. The answer is 6 words, starting with 'that' "
+    },
+    {
+      "id": 6,
+      "name": "Downtown Part 5",
+      "riddle": "Buried here, who was the second wife of the state’s first governor?",
+      "image": "https://media.giphy.com/media/JlpjgSWmzR45OUMyNQ/giphy.gif",
+      "rightAnswer": "Bonny Kate",
+      "hint": "A library branch is named this"
+    },
+    {
+      "id": 7,
+      "name": "Downtown Part 6",
+      "riddle": "Now stroll through Charles Krutch Park and seek out the metal bird. Upon what is it perched? (Omit any articles in your answer.)",
+      "image": "https://media.giphy.com/media/VBVY9IJKDxwHK/giphy.gif",
+      "rightAnswer": "fist",
+      "hint": "This is also traditionally the symbol of Black Power."
+    },
+    {
+      "id": 7,
+      "name": "Downtown Part 7",
+      "riddle": "Finish your journey through downtown Knoxville in Market Square and tell us: which Tennessean suffragette was also a character in Harry Potter?",
+      "image": "https://media.giphy.com/media/720g7C1jz13wI/giphy.gif",
+      "rightAnswer": "Anne",
+      "hint": "She’s the one from Nashville."
     }
   ]
 }
