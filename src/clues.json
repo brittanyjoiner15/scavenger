@@ -6,7 +6,9 @@
       "riddle": "To celebrate in the best way possible, we created this birthday scavenger hunt for you. Pack your bags, and once you're ready, type 'go' below when you're there!",
       "image": "https://media.giphy.com/media/VGG8UY1nEl66Y/giphy.gif",
       "rightAnswer": "go",
-      "hint": "Literally... just type 'go' with no quotes around it."
+      "hint": "Literally... just type 'go' with no quotes around it.",
+      "lat": 35.965582,
+      "lng": -83.911757
     },
     {
       "id": 1,
@@ -14,7 +16,9 @@
       "riddle": "Kon-Tiki, Heart of Darkness, Moby Dick: What do all of these stories have in common? The answer to this question will prove to be quite useful in order to obtain your next clue.",
       "image": "https://media.giphy.com/media/1TgECF0mNVirC/giphy.gif",
       "rightAnswer": "boat",
-      "hint": "It's a mode of transportation!"
+      "hint": "It's a mode of transportation!",
+      "lat": 35.951272,
+      "lng": -83.930507
     },
     {
       "id": 2,
