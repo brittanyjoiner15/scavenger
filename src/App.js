@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Header } from "./components/Header";
+
 import Clue from "./components/Clue";
 //import { ShowClue } from "./components/ShowClue";
 

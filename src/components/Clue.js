@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 import "../App.css";
 import {
   EuiBetaBadge,
@@ -42,8 +43,17 @@ const Clue = (props) => {
       }
     } else {
       window.alert("Try again");
-      //* set to eui banner */
     }
+  };
+  const style = {
+    width: "300px",
+    height: "300px",
+  };
+
+  const containerStyle = {
+    position: "relative",
+    width: "100%",
+    height: "100%",
   };
 
   return (
@@ -90,6 +100,7 @@ const Clue = (props) => {
                 </h3>
               </EuiTitle>
               <EuiSpacer />
+
               <EuiTitle
                 id="answer"
                 onClick={() => window.alert(clue.rightAnswer)}
@@ -104,12 +115,27 @@ const Clue = (props) => {
                   I am stumped. Give me the answer.
                 </h3>
               </EuiTitle>
+              <EuiSpacer />
+              <EuiSpacer />
+
+              <Map
+                google={props.google}
+                zoom={15}
+                initialCenter={{ lat: clue.lat, lng: clue.lng }}
+                center={{ lat: clue.lat, lng: clue.lng }}
+                style={style}
+              >
+                <Marker />
+              </Map>
             </div>
           </EuiPageContentBody>
         </EuiPageContent>
       </EuiPageBody>
+      <EuiSpacer />
     </EuiPage>
   );
 };
 
-export default Clue;
+export default GoogleApiWrapper({
+  apiKey: "AIzaSyA34Sx4XIV4g2YZrSve-RDkU7Uzva-trf8",
+})(Clue);
