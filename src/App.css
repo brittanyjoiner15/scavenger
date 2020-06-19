@@ -39,6 +39,7 @@
 
 .clueBox {
   justify-content: center;
+  position: relative;
 }
 
 .hide {

@@ -7,6 +7,7 @@ import {
   EuiSpacer,
   EuiFlexGroup,
   EuiFlexItem,
+  EuiFormRow,
   EuiFieldText,
   EuiPage,
   EuiPageBody,
@@ -48,17 +49,12 @@ const Clue = (props) => {
   const style = {
     width: "300px",
     height: "300px",
-  };
-
-  const containerStyle = {
     position: "relative",
-    width: "100%",
-    height: "100%",
   };
 
   return (
     <EuiPage>
-      <EuiPageBody component="div">
+      <EuiPageBody>
         <EuiPageContent verticalPosition="center" horizontalPosition="center">
           <EuiPageContentHeader>
             <EuiPageContentHeaderSection>
@@ -74,11 +70,15 @@ const Clue = (props) => {
               <p>{clue.riddle}</p>
               <EuiSpacer />
               <form id="guess" onSubmit={checkAnswer}>
-                <EuiFieldText
-                  placeholder="Type your answer here"
-                  aria-label="Type your answer here"
-                  name="submittedAnswer"
-                />
+                <EuiFlexGroup justifyContent="spaceAround">
+                  <EuiFlexItem grow={false}>
+                    <EuiFieldText
+                      placeholder="Type your answer here"
+                      aria-label="Type your answer here"
+                      name="submittedAnswer"
+                    />
+                  </EuiFlexItem>
+                </EuiFlexGroup>
                 <EuiSpacer />
                 <EuiButton fill type="submit">
                   Submit
@@ -100,7 +100,6 @@ const Clue = (props) => {
                 </h3>
               </EuiTitle>
               <EuiSpacer />
-
               <EuiTitle
                 id="answer"
                 onClick={() => window.alert(clue.rightAnswer)}
@@ -116,17 +115,20 @@ const Clue = (props) => {
                 </h3>
               </EuiTitle>
               <EuiSpacer />
-              <EuiSpacer />
-
+              <EuiTitle size="s">
+                <h3>You are here</h3>
+              </EuiTitle>
               <Map
                 google={props.google}
                 zoom={15}
                 initialCenter={{ lat: clue.lat, lng: clue.lng }}
                 center={{ lat: clue.lat, lng: clue.lng }}
                 style={style}
+                disableDefaultUI={true}
               >
                 <Marker />
               </Map>
+              <EuiSpacer />
             </div>
           </EuiPageContentBody>
         </EuiPageContent>
