@@ -141,3 +141,5 @@ const Clue = (props) => {
 export default GoogleApiWrapper({
   apiKey: "AIzaSyA34Sx4XIV4g2YZrSve-RDkU7Uzva-trf8",
 })(Clue);
+
+//** make input received go to lowercase and trim spaces so it would match */
