@@ -38,6 +38,7 @@ const Clue = (props) => {
       if (id === jsonData.Clues.length - 2) {
         document.getElementById("guess").classList.add("hide");
         document.getElementById("hintBox").classList.add("hide");
+        document.getElementById("answer").classList.add("hide");
       }
     } else {
       window.alert("Try again");
@@ -112,5 +113,3 @@ const Clue = (props) => {
 };
 
 export default Clue;
-
-//** make input received go to lowercase and trim spaces so it would match */
