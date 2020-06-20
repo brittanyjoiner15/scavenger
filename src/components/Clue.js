@@ -7,7 +7,6 @@ import {
   EuiSpacer,
   EuiFlexGroup,
   EuiFlexItem,
-  EuiFormRow,
   EuiFieldText,
   EuiPage,
   EuiPageBody,
@@ -47,9 +46,7 @@ const Clue = (props) => {
     }
   };
   const style = {
-    width: "300px",
     height: "300px",
-    position: "relative",
   };
 
   return (
@@ -118,6 +115,7 @@ const Clue = (props) => {
               <EuiTitle size="s">
                 <h3>You are here</h3>
               </EuiTitle>
+              <EuiSpacer />
               <Map
                 google={props.google}
                 zoom={15}
@@ -128,7 +126,6 @@ const Clue = (props) => {
               >
                 <Marker />
               </Map>
-              <EuiSpacer />
             </div>
           </EuiPageContentBody>
         </EuiPageContent>
@@ -141,5 +138,3 @@ const Clue = (props) => {
 export default GoogleApiWrapper({
   apiKey: "AIzaSyA34Sx4XIV4g2YZrSve-RDkU7Uzva-trf8",
 })(Clue);
-
-//** make input received go to lowercase and trim spaces so it would match */
