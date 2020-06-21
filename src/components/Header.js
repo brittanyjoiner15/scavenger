@@ -6,7 +6,7 @@ export class Header extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="top">Scavenger Hunt</h1>
+        <h1 className="top">Scavenger Hunt App</h1>
       </div>
     );
   }
