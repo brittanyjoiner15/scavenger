@@ -49,12 +49,41 @@ const Clue = (props) => {
     height: "300px",
   };
 
+  const trackerStyle = {
+    height: 20,
+    width: "100%",
+    backgroundColor: "#e0e0de",
+    borderRadius: 50,
+    margin: 10,
+  };
+
+  const completed = clue.completed;
+
+  const fillerStyle = {
+    height: "100%",
+    width: `${completed}%`,
+    backgroundColor: "#00b1ac",
+    borderRadius: "inherit",
+    textAlign: "right",
+  };
+
+  const labelStyles = {
+    padding: 5,
+    color: "white",
+    fontWeight: "bold",
+  };
+
   return (
     <EuiPage>
       <EuiPageBody>
         <EuiPageContent verticalPosition="center" horizontalPosition="center">
           <EuiPageContentHeader>
             <EuiPageContentHeaderSection>
+              <div style={trackerStyle}>
+                <div style={fillerStyle}>
+                  <span style={labelStyles}>{`${clue.completed}%`}</span>
+                </div>
+              </div>
               <EuiTitle>
                 <h2>{clue.name}</h2>
               </EuiTitle>
