@@ -34,7 +34,9 @@ const Clue = (props) => {
     e.preventDefault();
     const form = e.target;
     console.log(id);
-    const submittedAnswer = e.target.elements.submittedAnswer.value.toLowerCase();
+    const submittedAnswer = e.target.elements.submittedAnswer.value
+      .toLowerCase()
+      .trim();
     if (submittedAnswer === rightAnswer) {
       setId(id + 1);
       form.reset();
