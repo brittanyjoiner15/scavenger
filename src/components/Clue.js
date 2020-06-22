@@ -133,7 +133,12 @@ const Clue = (props) => {
               <EuiSpacer />
               <EuiText
                 id="answer"
-                onClick={() => window.confirm(clue.rightAnswer)}
+                onClick={() => {
+                  const sure = window.confirm("Are you sure?");
+                  if (sure === true) {
+                    window.alert(clue.rightAnswer);
+                  }
+                }}
                 size="xs"
               >
                 <h3>
