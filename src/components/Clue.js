@@ -14,6 +14,8 @@ import {
   EuiPageContentBody,
   EuiPageContentHeader,
   EuiPageContentHeaderSection,
+  EuiText,
+  EuiTextColor,
   EuiTitle,
 } from "@elastic/eui";
 
@@ -127,10 +129,10 @@ const Clue = (props) => {
                 </h3>
               </EuiTitle>
               <EuiSpacer />
-              <EuiTitle
+              <EuiText
                 id="answer"
-                onClick={() => window.alert(clue.rightAnswer)}
-                size="xxs"
+                onClick={() => window.confirm(clue.rightAnswer)}
+                size="xs"
               >
                 <h3>
                   <EuiBetaBadge
@@ -138,13 +140,17 @@ const Clue = (props) => {
                     label="Lab"
                     iconType="beaker"
                   />
-                  I am stumped. Give me the answer.
+                  <EuiTextColor color="warning">
+                    I am stumped. Give me the answer.
+                  </EuiTextColor>
                 </h3>
-              </EuiTitle>
+              </EuiText>
               <EuiSpacer />
-              <EuiTitle size="s">
-                <h3>You are here</h3>
-              </EuiTitle>
+              <hr />
+              <EuiSpacer />
+              <EuiText size="m">
+                <em>You are here.</em>
+              </EuiText>
               <EuiSpacer />
               <Map
                 google={props.google}
