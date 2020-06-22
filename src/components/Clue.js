@@ -4,6 +4,7 @@ import "../App.css";
 import {
   EuiBetaBadge,
   EuiButton,
+  EuiIcon,
   EuiSpacer,
   EuiFlexGroup,
   EuiFlexItem,
@@ -96,7 +97,12 @@ const Clue = (props) => {
           </EuiPageContentHeader>
           <EuiPageContentBody>
             <div className="clueBox">
-              <img src={clue.image} width="100%" alt={clue.name} />
+              <img
+                src={clue.image}
+                width="100%"
+                alt={clue.name}
+                className="responsive"
+              />
               <EuiSpacer />
               <p>{clue.riddle}</p>
               <EuiSpacer />
@@ -142,13 +148,9 @@ const Clue = (props) => {
                 size="xs"
               >
                 <h3>
-                  <EuiBetaBadge
-                    className="hint"
-                    label="Lab"
-                    iconType="beaker"
-                  />
+                  <EuiIcon type="alert" />
                   <EuiTextColor color="warning">
-                    I am stumped. Give me the answer.
+                    &nbsp;I am stumped. Give me the answer.
                   </EuiTextColor>
                 </h3>
               </EuiText>
