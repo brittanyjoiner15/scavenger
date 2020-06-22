@@ -36,6 +36,7 @@ const Clue = (props) => {
     if (submittedAnswer === rightAnswer) {
       setId(id + 1);
       form.reset();
+      window.scrollTo(0, 0);
       if (id === jsonData.Clues.length - 2) {
         document.getElementById("guess").classList.add("hide");
         document.getElementById("hintBox").classList.add("hide");
