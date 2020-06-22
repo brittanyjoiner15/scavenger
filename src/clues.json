@@ -58,12 +58,12 @@
     {
       "id": 5,
       "name": "Next up... use your decoding skills",
-      "riddle": "Amy dedocder question - put in the address to confirm",
-      "image": "https://media1.tenor.com/images/4c52c2779a66e239ec569f1ba0f077aa/tenor.gif?itemid=5232669",
+      "riddle": "This clue spells out your next address. Type in your answer below.",
+      "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/50712ca48a88401f0bca2211c309f52e/image.png",
       "rightAnswer": "4024 kingston",
-      "hint": "make sure you have the questions in order.",
-      "lat": 35.943404,
-      "lng": -83.970655,
+      "hint": "you don't need a hint for this one",
+      "lat": 35.911348,
+      "lng": -84.085284,
       "completed": 25
     },
     {
@@ -72,9 +72,9 @@
       "riddle": "Use the items you have retrieved to decode the location of your next clue.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/71eb4aa10028a09a181ee5330881803f/image.png",
       "rightAnswer": "taliluna",
-      "hint": "make sure you have the questions in order.",
-      "lat": 35.911348,
-      "lng": -84.085284,
+      "hint": "ask Rachel if you're stuck?",
+      "lat": 35.943404,
+      "lng": -83.970655,
       "completed": 30
     },
     {
@@ -84,8 +84,8 @@
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/75e03308a37d607a4eaead8fbe9df3fe/image.png",
       "rightAnswer": "3636",
       "hint": "It's the number for the street address in the previous clue. Just put in the four numbers.",
-      "lat": 35.911348,
-      "lng": -84.085284,
+      "lat": 35.943404,
+      "lng": -83.970655,
       "completed": 35
     },
     {
