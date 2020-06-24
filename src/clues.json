@@ -201,9 +201,9 @@
     {
       "id": 18,
       "name": "Head to Thursday Connection.",
-      "riddle": "What are the number of steps leading down to the door? Type in your answer below",
-      "image": "https://media.giphy.com/media/lQPHNPMPZ7tcIwseGn/giphy.gif",
-      "rightAnswer": "10",
+      "riddle": "Count the number of steps leading to the door you go in to TC, and use that to solve this math problem. Type your answer below to get your final clue.",
+      "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/ba97aa1b1e0ed05090fee7b959db6b78/image.png",
+      "rightAnswer": "0",
       "hint": "Count the stairs",
       "lat": 35.916616,
       "lng": -84.0092,
