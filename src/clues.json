@@ -14,7 +14,7 @@
     {
       "id": 1,
       "name": "You need something...",
-      "riddle": "Kon-Tiki, Heart of Darkness, Moby Dick: What do all of these stories have in common? The answer to this question will prove to be quite useful in order to obtain your next clue.",
+      "riddle": "Kon-Tiki, Heart of Darkness, Moby Dick: What do all of these stories have in common? The answer to this question will prove to be quite useful in order to obtain your next clue. (Omit any articles in your answer.)",
       "image": "https://media.giphy.com/media/1TgECF0mNVirC/giphy.gif",
       "rightAnswer": "boat",
       "hint": "It's a mode of transportation!",
@@ -25,7 +25,7 @@
     {
       "id": 2,
       "name": "Bring the kayak!",
-      "riddle": "So you figured out what you need. Now figure out where you will use it! Drive along Northshore until you reach a street sharing the same name as a famous preacher. The rest of your path should then become clear. When you arrive, type the name of the road to get your next clue.",
+      "riddle": "So you figured out what you need. Now figure out where you will use it! Type the name of the road you turned onto from Northshore in order to get your next clue.",
       "image": "https://media.giphy.com/media/iVqXV4vE4DDYk/giphy.gif",
       "rightAnswer": "keller bend",
       "hint": "Redeemer",
@@ -36,7 +36,7 @@
     {
       "id": 3,
       "name": "I'm On a Boat",
-      "riddle": "To solve your next clue you will need a few things. Use the kayak to cross over the water and search for a marked flag. When you have retrieved the items and unscrambled the letters, type in the answer of what they spell, then go there.",
+      "riddle": "To solve your next clue you will need a few things. Use the kayak to cross over the water and search for a marked flag. When you have retrieved the items, use them to determine your next location. Where are you headed?",
       "image": "https://media1.tenor.com/images/4c52c2779a66e239ec569f1ba0f077aa/tenor.gif?itemid=5232669",
       "rightAnswer": "cedar springs",
       "hint": "5 letters in first word, and 7 letters in second word",
@@ -47,7 +47,7 @@
     {
       "id": 4,
       "name": "Go to church!",
-      "riddle": "Once there, head to The Watershed solve the answers to the questions on the porch. Each question is multiple choice, put the letters of the answers in order below to see your next clue.",
+      "riddle": "Once there, head to the gym and find a bag marked for you. Use your trivia knowledge to answer the questions. Each question is multiple choice, put the letters of the answers in order below to see your next clue.",
       "image": "https://media.giphy.com/media/26FPqtXZkuciQPklO/giphy.gif",
       "rightAnswer": "cbad",
       "hint": "Make sure you have the questions in order.",
@@ -69,7 +69,7 @@
     {
       "id": 6,
       "name": "Maps Quest, Part 1",
-      "riddle": "Use the items you have retrieved to decode the location of your next clue.",
+      "riddle": "Welcome to Addy's! Go look for a cache. Use the items you have retrieved and the data above figure out your next location.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/71eb4aa10028a09a181ee5330881803f/image.png",
       "rightAnswer": "taliluna",
       "hint": "https://www.maptools.com/tutorials/utm/quick_guide",
@@ -80,7 +80,7 @@
     {
       "id": 7,
       "name": "Maps Quest, Part 2",
-      "riddle": "You still need some more information to determine your exact location",
+      "riddle": "Use the answers above to narrow down your exact destination. Enter the answer below.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/75e03308a37d607a4eaead8fbe9df3fe/image.png",
       "rightAnswer": "3636",
       "hint": "It's the number for the street address in the previous clue. Just put in the four numbers.",
@@ -91,7 +91,7 @@
     {
       "id": 8,
       "name": "You made it to Amy's!",
-      "riddle": "Red is my color, two words in my name, sink all the other to win my game. My players social distance. they stand 8 ft apart, so no it's not battleships, you're not that smart! Although many people love to play me, one group often does in movies and tv. Go to their home, but first enter in your phone, who do you think this may be? Enter the shortened and plural version of the word.",
+      "riddle": "Red is my color, two words in my name, sink all the others to win my game. My players social distance. they stand 8 ft apart, so no it's not battleships, you're not that smart! Although many people love to play me, one group often does in movies and tv. What am I? Enter the shortened and plural version of the word.",
       "image": "https://media1.tenor.com/images/55085b5ff5985b7cbdc5c198f52be68f/tenor.gif",
       "rightAnswer": "frats",
       "hint": "What did you retrieve this clue out of?",
@@ -113,7 +113,7 @@
     {
       "id": 10,
       "name": "Once you've parked at Locust Street Garage...",
-      "riddle": "Go to Assembly Park and find the memorial built by Knoxville artist Randy Vaden. What date does it commemorate? (Answer should be DD/MM/YYYY.)",
+      "riddle": "Go to Assembly Park (outside the Knoxville City County Building) and find the memorial built by Knoxville artist Randy Vaden. What date does it commemorate? (Answer should be DD/MM/YYYY.)",
       "image": "https://media.giphy.com/media/1lk1IcVgqPLkA/giphy.gif",
       "rightAnswer": "11/09/2001",
       "hint": "dad never flies on this day",
@@ -179,7 +179,7 @@
     {
       "id": 16,
       "name": "Downtown Part 7",
-      "riddle": "Finish your journey through downtown Knoxville in Market Square and tell us: Finish your journey through downtown Knoxville in Market Square and tell us: which Tennessean suffragette shares one of her names with a character in Harry Potter? (You only need to enter their first name for the answer.)",
+      "riddle": "Finish your journey through downtown Knoxville in Market Square and tell us: which Tennessean suffragette shares one of her names with a character in Harry Potter? (You only need to enter their first name for the answer.)",
       "image": "https://media.giphy.com/media/720g7C1jz13wI/giphy.gif",
       "rightAnswer": "anne",
       "hint": "She’s the one from Nashville.",
@@ -223,7 +223,7 @@
     {
       "id": 20,
       "name": "Congrats!",
-      "riddle": "You did it! No go enjoy some birthday drinks at 7100 :)",
+      "riddle": "You did it! Now go enjoy some birthday drinks and apps at Tahiti Family Robinsons! :)",
       "image": "https://media.giphy.com/media/g9582DNuQppxC/giphy.gif",
       "rightAnswer": "na",
       "hint": "Go to the Robinson's!",
