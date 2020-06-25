@@ -39,7 +39,7 @@
       "riddle": "To solve your next clue you will need a few things. Use the kayak to cross over the water and search for a marked flag. When you have retrieved the items, use them to determine your next location. Where are you headed?",
       "image": "https://media1.tenor.com/images/4c52c2779a66e239ec569f1ba0f077aa/tenor.gif?itemid=5232669",
       "rightAnswer": "cedar springs",
-      "hint": "5 letters in first word, and 7 letters in second word",
+      "hint": "Look for a bag on the shore near 9202 Northshore. Unscramble the letters. The answer is 5 letters in first word, and 7 letters in second word",
       "lat": 35.862325,
       "lng": -84.058247,
       "completed": 15
@@ -58,10 +58,10 @@
     {
       "id": 5,
       "name": "Next up... use your decoding skills",
-      "riddle": "This clue spells out your next address. Type in your answer below.",
+      "riddle": "This clue spells out your next address. Type in your answer below. Use numbers instead spelling out words.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/b925524d60d7d90ebc99fed23c133540/image.png",
       "rightAnswer": "4024 kingston pike",
-      "hint": "type numbers instead of the words for numbers",
+      "hint": "Type numbers instead of the words for numbers",
       "lat": 35.911348,
       "lng": -84.085284,
       "completed": 25
