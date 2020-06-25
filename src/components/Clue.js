@@ -169,7 +169,7 @@ const Clue = (props) => {
                 style={style}
                 disableDefaultUI={true}
               >
-                <Marker />
+                <Marker position={{ lat: clue.lat, lng: clue.lng }} />
               </Map>
             </div>
           </EuiPageContentBody>
