@@ -1,235 +1,235 @@
 {
   "Clues": [
     {
-      "id": 0,
       "name": "Happy Birthday, Mom!",
       "riddle": "To celebrate in the best way possible, we created this birthday scavenger hunt for you. Pack your bags, and once you're ready, type 'go' below when you're there!",
       "image": "https://media.giphy.com/media/VGG8UY1nEl66Y/giphy.gif",
       "rightAnswer": "go",
       "hint": "Literally... just type 'go' with no quotes around it.",
-      "lat": 35.864468,
-      "lng": -84.082765,
-      "completed": 0
+      "geo": {
+        "lat": 35.864468,
+        "lng": -84.082765
+      }
     },
     {
-      "id": 1,
       "name": "You need something...",
       "riddle": "Kon-Tiki, Heart of Darkness, Moby Dick: What do all of these stories have in common? The answer to this question will prove to be quite useful in order to obtain your next clue. (Omit any articles in your answer.)",
       "image": "https://media.giphy.com/media/1TgECF0mNVirC/giphy.gif",
       "rightAnswer": "boat",
       "hint": "It's a mode of transportation!",
-      "lat": 35.864468,
-      "lng": -84.082765,
-      "completed": 5
+      "geo": {
+        "lat": 35.864468,
+        "lng": -84.082765
+      }
     },
     {
-      "id": 2,
       "name": "Bring the kayak!",
       "riddle": "So you figured out what you need. Now figure out where you will use it! Type the name of the road you turned onto from Northshore in order to get your next clue.",
       "image": "https://media.giphy.com/media/iVqXV4vE4DDYk/giphy.gif",
       "rightAnswer": "keller bend",
       "hint": "Redeemer",
-      "lat": 35.864468,
-      "lng": -84.082765,
-      "completed": 10
+      "geo": {
+        "lat": 35.864468,
+        "lng": -84.082765
+      }
     },
     {
-      "id": 3,
       "name": "I'm On a Boat",
       "riddle": "To solve your next clue you will need a few things. Use the kayak to cross over the water and search for a marked flag. When you have retrieved the items, use them to determine your next location. Where are you headed?",
       "image": "https://media1.tenor.com/images/4c52c2779a66e239ec569f1ba0f077aa/tenor.gif?itemid=5232669",
       "rightAnswer": "cedar springs",
       "hint": "Look for a bag on the shore near 9202 Northshore. Unscramble the letters. The answer is 5 letters in first word, and 7 letters in second word",
-      "lat": 35.862325,
-      "lng": -84.058247,
-      "completed": 15
+      "geo": {
+        "lat": 35.862325,
+        "lng": -84.058247
+      }
     },
     {
-      "id": 4,
       "name": "Go to church!",
       "riddle": "Once there, head to the gym and find a bag marked for you. Use your trivia knowledge to answer the questions. Each question is multiple choice, put the letters of the answers in order below to see your next clue.",
       "image": "https://media.giphy.com/media/26FPqtXZkuciQPklO/giphy.gif",
       "rightAnswer": "cbad",
       "hint": "Make sure you have the questions in order.",
-      "lat": 35.911348,
-      "lng": -84.085284,
-      "completed": 20
+      "geo": {
+        "lat": 35.911348,
+        "lng": -84.085284
+      }
     },
     {
-      "id": 5,
       "name": "Next up... use your decoding skills",
       "riddle": "This clue spells out your next address. Type in your answer below. Use numbers instead spelling out words.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/b925524d60d7d90ebc99fed23c133540/image.png",
       "rightAnswer": "4024 kingston pike",
       "hint": "Type numbers instead of the words for numbers",
-      "lat": 35.911348,
-      "lng": -84.085284,
-      "completed": 25
+      "geo": {
+        "lat": 35.911348,
+        "lng": -84.085284
+      }
     },
     {
-      "id": 6,
       "name": "Maps Quest, Part 1",
       "riddle": "Welcome to Addy's! Go look for a cache. Use the items you have retrieved and the data above figure out your next location.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/71eb4aa10028a09a181ee5330881803f/image.png",
       "rightAnswer": "taliluna",
       "hint": "https://www.maptools.com/tutorials/utm/quick_guide",
-      "lat": 35.943404,
-      "lng": -83.970655,
-      "completed": 30
+      "geo": {
+        "lat": 35.943404,
+        "lng": -83.970655
+      }
     },
     {
-      "id": 7,
       "name": "Maps Quest, Part 2",
       "riddle": "Use the answers above to narrow down your exact destination. Enter the answer below.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/75e03308a37d607a4eaead8fbe9df3fe/image.png",
       "rightAnswer": "3636",
       "hint": "It's the number for the street address in the previous clue. Just put in the four numbers.",
-      "lat": 35.943404,
-      "lng": -83.970655,
-      "completed": 35
+      "geo": {
+        "lat": 35.943404,
+        "lng": -83.970655
+      }
     },
     {
-      "id": 8,
       "name": "You made it to Amy's!",
       "riddle": "Red is my color, two words in my name, sink all the others to win my game. My players social distance. they stand 8 ft apart, so no it's not battleships, you're not that smart! Though many love to play me and say that they've won, it's illegal to do so if you're under twenty-one. What am I?",
       "image": "https://media1.tenor.com/images/55085b5ff5985b7cbdc5c198f52be68f/tenor.gif",
       "rightAnswer": "beer pong",
       "hint": "It's a college game.",
-      "lat": 35.932894,
-      "lng": -83.959723,
-      "completed": 40
+      "geo": {
+        "lat": 35.932894,
+        "lng": -83.959723
+      }
     },
     {
-      "id": 9,
       "name": "Head to Frat Row!",
       "riddle": "You'll have to play a game to get your next clue. See Amy. Once you've been handed your clues, solve them, and enter the first word of the place you need to go next.",
       "image": "https://media.giphy.com/media/3ornjZwtv8PoahqgOA/giphy.gif",
       "rightAnswer": "locust",
       "hint": "It's somewhere you'll park.",
-      "lat": 35.950969,
-      "lng": -83.932,
-      "completed": 45
+      "geo": {
+        "lat": 35.950969,
+        "lng": -83.932
+      }
     },
     {
-      "id": 10,
       "name": "Once you've parked at Locust Street Garage...",
       "riddle": "Go to Assembly Park (outside the Knoxville City County Building) and find the memorial built by Knoxville artist Randy Vaden. What date does it commemorate? (Answer should be DD/MM/YYYY.)",
       "image": "https://media.giphy.com/media/1lk1IcVgqPLkA/giphy.gif",
       "rightAnswer": "11/09/2001",
       "hint": "dad never flies on this day",
-      "lat": 35.96377,
-      "lng": -83.920814,
-      "completed": 50
+      "geo": {
+        "lat": 35.96377,
+        "lng": -83.920814
+      }
     },
     {
-      "id": 11,
       "name": "Downtown Part 2",
       "riddle": "Walk up Main Street and figure out what building used to be on the site of the Old Knoxville Courthouse? (Omit any articles, answer should be three words).",
       "image": "https://media.giphy.com/media/Emg9qPKR5hquI/giphy.gif",
       "rightAnswer": "first block house",
       "hint": "300 Main St - Knoxville, TN 37902",
-      "lat": 35.961414,
-      "lng": -83.91763,
-      "completed": 55
+      "geo": {
+        "lat": 35.961414,
+        "lng": -83.91763
+      }
     },
     {
-      "id": 12,
       "name": "Downtown Part 3",
       "riddle": "Keep exploring the area and find out the name of the territory of which Knoxville was once capital. (Omit any articles, answer is two words.)",
       "image": "https://media.giphy.com/media/BwyFZFzCFgaSQ/giphy.gif",
       "rightAnswer": "southwest territory",
       "hint": "It contains a direction",
-      "lat": 35.961414,
-      "lng": -83.91763,
-      "completed": 60
+      "geo": {
+        "lat": 35.961414,
+        "lng": -83.91763
+      }
     },
     {
-      "id": 13,
       "name": "Downtown Part 4",
       "riddle": "According to another plaque, destiny decrees what? (6 words, starts with 'that', no puncuation needed",
       "image": "https://media.giphy.com/media/YLHwkqayc1j7a/giphy.gif",
       "rightAnswer": "that some make the supreme sacrifice",
       "hint": "Look for the McMillans.",
-      "lat": 35.961414,
-      "lng": -83.91763,
-      "completed": 65
+      "geo": {
+        "lat": 35.961414,
+        "lng": -83.91763
+      }
     },
     {
-      "id": 14,
       "name": "Downtown Part 5",
       "riddle": "Buried here, who was the second wife of the state’s first governor?",
       "image": "https://media.giphy.com/media/JlpjgSWmzR45OUMyNQ/giphy.gif",
       "rightAnswer": "bonny kate",
       "hint": "A library branch is named this",
-      "lat": 35.961414,
-      "lng": -83.91763,
-      "completed": 70
+      "geo": {
+        "lat": 35.961414,
+        "lng": -83.91763
+      }
     },
     {
-      "id": 15,
       "name": "Downtown Part 6",
       "riddle": "Now stroll through Charles Krutch Park and seek out the metal bird. Upon what is it perched? (Omit any articles in your answer.)",
       "image": "https://media.giphy.com/media/VBVY9IJKDxwHK/giphy.gif",
       "rightAnswer": "fist",
       "hint": "This is also traditionally the symbol of Black Power.",
-      "lat": 35.964529,
-      "lng": -83.918589,
-      "completed": 75
+      "geo": {
+        "lat": 35.964529,
+        "lng": -83.918589
+      }
     },
     {
-      "id": 16,
       "name": "Downtown Part 7",
       "riddle": "Finish your journey through downtown Knoxville in Market Square and tell us: which Tennessean suffragette shares one of her names with a character in Harry Potter? (You only need to enter their first name for the answer.)",
       "image": "https://media.giphy.com/media/720g7C1jz13wI/giphy.gif",
       "rightAnswer": "anne",
       "hint": "She’s the one from Nashville.",
-      "lat": 35.965733,
-      "lng": -83.919779,
-      "completed": 80
+      "geo": {
+        "lat": 35.965733,
+        "lng": -83.919779
+      }
     },
     {
-      "id": 17,
       "name": "Go back to parking garage",
       "riddle": "Get in the car and look in the backseat for your next puzzle. Solve it! Then enter in the letters that form a connection between all the words",
       "image": "https://media.giphy.com/media/26n6WywJyh39n1pBu/giphy.gif",
       "rightAnswer": "tc",
       "hint": "It's just two letters.",
-      "lat": 35.96377,
-      "lng": -83.920814,
-      "completed": 85
+      "geo": {
+        "lat": 35.96377,
+        "lng": -83.920814
+      }
     },
     {
-      "id": 18,
       "name": "Head to Thursday Connection.",
       "riddle": "Count the number of steps leading to the door you go in to TC, and use that to solve this math problem. Type your answer below to get your final clue.",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/ba97aa1b1e0ed05090fee7b959db6b78/image.png",
       "rightAnswer": "0",
       "hint": "Count the stairs",
-      "lat": 35.916616,
-      "lng": -84.0092,
-      "completed": 90
+      "geo": {
+        "lat": 35.916616,
+        "lng": -84.0092
+      }
     },
     {
-      "id": 19,
       "name": "You've reached the last clue!",
       "riddle": "What does this block of code return?",
       "image": "https://trello-attachments.s3.amazonaws.com/5ed979e77bb1106caad412b8/5ed983f74e03a02e729c7ac3/e9960cd2f52be09ea35b22b4adb58f00/image.png",
       "rightAnswer": "7100",
       "hint": "=(12*40*10)+((30-5)*92)",
-      "lat": 35.916616,
-      "lng": -84.0092,
-      "completed": 95
+      "geo": {
+        "lat": 35.916616,
+        "lng": -84.0092
+      }
     },
     {
-      "id": 20,
       "name": "Congrats!",
       "riddle": "You did it! Now go enjoy some birthday drinks and apps at Tahiti Family Robinsons! :)",
       "image": "https://media.giphy.com/media/g9582DNuQppxC/giphy.gif",
       "rightAnswer": "na",
       "hint": "Go to the Robinson's!",
-      "lat": 35.92287,
-      "lng": -84.016778,
-      "completed": 100
+      "geo": {
+        "lat": 35.92287,
+        "lng": -84.016778
+      }
     }
   ]
 }

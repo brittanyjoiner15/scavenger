@@ -1,24 +1,19 @@
-import React, { useState } from "react";
-import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
+import React, {useState} from "react";
+import {GoogleApiWrapper, Map, Marker} from "google-maps-react";
 import "../App.css";
 import {
-  EuiBetaBadge,
-  EuiButton,
-  EuiIcon,
-  EuiSpacer,
-  EuiFlexGroup,
-  EuiFlexItem,
-  EuiFieldText,
   EuiPage,
   EuiPageBody,
   EuiPageContent,
   EuiPageContentBody,
   EuiPageContentHeader,
   EuiPageContentHeaderSection,
+  EuiSpacer,
   EuiText,
-  EuiTextColor,
   EuiTitle,
 } from "@elastic/eui";
+
+import Form from "./Form";
 
 import jsonData from "../clues.json";
 
@@ -26,7 +21,7 @@ import "@elastic/eui/dist/eui_theme_light.css";
 
 const Clue = (props) => {
   const [id, setId] = useState(0);
-
+  console.log(id);
   const clue = jsonData.Clues[id];
 
   const rightAnswer = clue.rightAnswer;
@@ -34,7 +29,6 @@ const Clue = (props) => {
   const checkAnswer = (e) => {
     e.preventDefault();
     const form = e.target;
-    console.log(id);
     const submittedAnswer = e.target.elements.submittedAnswer.value
       .toLowerCase()
       .trim();
@@ -42,11 +36,6 @@ const Clue = (props) => {
       setId(id + 1);
       form.reset();
       window.scrollTo(0, 0);
-      if (id === jsonData.Clues.length - 2) {
-        document.getElementById("guess").classList.add("hide");
-        document.getElementById("hintBox").classList.add("hide");
-        document.getElementById("answer").classList.add("hide");
-      }
     } else {
       window.alert("Try again");
     }
@@ -63,7 +52,8 @@ const Clue = (props) => {
     margin: 10,
   };
 
-  const completed = clue.completed;
+  const completed = id * 100 / (jsonData.Clues.length - 1);
+  console.log(completed);
 
   const fillerStyle = {
     height: "100%",
@@ -87,7 +77,7 @@ const Clue = (props) => {
             <EuiPageContentHeaderSection>
               <div style={trackerStyle}>
                 <div style={fillerStyle}>
-                  <span style={labelStyles}>{`${clue.completed}%`}</span>
+                  <span style={labelStyles}>{`${completed}%`}</span>
                 </div>
               </div>
               <EuiTitle>
@@ -98,78 +88,34 @@ const Clue = (props) => {
           <EuiPageContentBody>
             <div className="clueBox">
               <img
-                src={clue.image}
-                width="100%"
-                alt={clue.name}
-                className="responsive"
+                  src={clue.image}
+                  width="100%"
+                  alt={clue.name}
+                  className="responsive"
               />
-              <EuiSpacer />
+              <EuiSpacer/>
               <p>{clue.riddle}</p>
-              <EuiSpacer />
-              <form id="guess" onSubmit={checkAnswer}>
-                <EuiFlexGroup justifyContent="spaceAround">
-                  <EuiFlexItem grow={false}>
-                    <EuiFieldText
-                      placeholder="Type your answer here"
-                      aria-label="Type your answer here"
-                      name="submittedAnswer"
-                    />
-                  </EuiFlexItem>
-                </EuiFlexGroup>
-                <EuiSpacer />
-                <EuiButton fill type="submit">
-                  Submit
-                </EuiButton>
-              </form>
-              <EuiSpacer />
-              <EuiTitle
-                id="hintBox"
-                onClick={() => window.alert(clue.hint)}
-                size="xxs"
-              >
-                <h3>
-                  <EuiBetaBadge
-                    className="hint"
-                    label="Lab"
-                    iconType="beaker"
-                  />
-                  Need a hint?
-                </h3>
-              </EuiTitle>
-              <EuiSpacer />
-              <EuiText
-                id="answer"
-                onClick={() => {
-                  const sure = window.confirm("Are you sure?");
-                  if (sure === true) {
-                    window.alert(clue.rightAnswer);
-                  }
-                }}
-                size="xs"
-              >
-                <h3>
-                  <EuiIcon type="alert" />
-                  <EuiTextColor color="warning">
-                    &nbsp;I am stumped. Give me the answer.
-                  </EuiTextColor>
-                </h3>
-              </EuiText>
-              <EuiSpacer />
-              <hr />
-              <EuiSpacer />
+              <EuiSpacer/>
+              {
+                id < jsonData.Clues.length - 2 ? (
+                    <Form checkAnswer={checkAnswer} clue={clue}/>
+                ) : null
+              }
+              <hr/>
+              <EuiSpacer/>
               <EuiText size="m">
                 <em>You are here.</em>
               </EuiText>
-              <EuiSpacer />
+              <EuiSpacer/>
               <Map
-                google={props.google}
-                zoom={15}
-                initialCenter={{ lat: clue.lat, lng: clue.lng }}
-                center={{ lat: clue.lat, lng: clue.lng }}
-                style={style}
-                disableDefaultUI={true}
+                  google={props.google}
+                  zoom={15}
+                  initialCenter={clue.geo}
+                  center={clue.geo}
+                  style={style}
+                  disableDefaultUI={true}
               >
-                <Marker position={{ lat: clue.lat, lng: clue.lng }} />
+                <Marker position={clue.geo}/>
               </Map>
             </div>
           </EuiPageContentBody>
